@@ -1,0 +1,130 @@
+/*主体部分*/
+#main {
+    margin: 0 auto;
+    padding:20px 0px;
+    width: 1000px;
+    min-height: 500px;
+    clear: both;
+}
+/*内容*/
+#content {
+    margin:0 auto;
+    width: 1000px;
+    min-height: 500px;
+}
+/*搜索区域*/
+#search{
+    width: 100%;
+    height: 60px;
+    min-width: 600px;
+    position: relative;
+}
+/*搜索框居中部分*/
+#search .center{
+    width: 600px;
+    height: 60px;
+    background-color: #666;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -30px 0 0 -300px;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+/*搜索框*/
+#search .search{
+    width: 480px;
+    height: 53px;
+    background-color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -27px 0 0 -296px;
+    color: #666;
+    border: 1px solid #666;
+    font-size: 20px;
+    padding: 0 14px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+}
+#search .search::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #666; 
+} 
+#search .search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #666; 
+} 
+#search .search::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #666; 
+} 
+#search .search:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #666; 
+} 
+/*搜索按钮*/
+#search .button{
+    width: 40px;
+    height: 34px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -27px 0 0 215px;
+    color: #666;
+    border: 1px solid #008B45;
+    font-size: 20px;
+    padding:10px 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*表格*/
+#content th,td{
+    border:1px solid #999;
+}
+#content table {
+    margin: 20px 0;
+    font-family: "微软雅黑","宋体",Arial;
+    width: 1000px;
+    table-layout:fixed; //避免单元格被撑开
+    empty-cells: show;
+    border-collapse: collapse;
+}
+#content th{
+    padding-top: 4px;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 36px;
+    background-color: #666;
+    color: white;
+}
+#content td{
+    padding: 2px 30px 0;
+    font-size: 1em;
+    line-height: 36px;
+    color: #003399;
+    letter-spacing: 1px;
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow: ellipsis;//超出部分显示为。。。
+}
+#content table a{
+    color:#003399;
+}
+#content table a:hover{
+    color:red;
+}
+#content .center{
+    text-align: center;
+}
+/*翻页*/
+#content .turnPage{
+    text-decoration: underline;
+}
+#content .qMessage{
+    margin: 0 0 0 30px;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #008b45;
+    line-height: 60px;
+}

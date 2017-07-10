@@ -1,0 +1,10 @@
+/*主体部分*/
+#main {
+	font-size: 1.2em;
+    margin: 20px auto;
+    padding:40px 50px;
+    width: 1000px;
+    min-height: 500px;
+    background: #eee;
+    clear: both;
+}
